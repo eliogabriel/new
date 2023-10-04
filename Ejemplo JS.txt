@@ -1,0 +1,74 @@
+
+-------< Tipo de Arreglo > -------------------------------------------------
+	
+
+
+
+let pc1 = { 
+    nombre : "Elio",
+    Procesador : "IntelCore17",
+    Ram : "16GB",
+    Espacio : "1TB"
+};
+
+pc2 = [ "Elio" , "IntelCore17" , "16GB" , "1TB" ];
+
+document.write( pc1[ "nombre" ] );
+document.write( pc2[ 0 ] ); 
+
+------------<Bucles>-------------------------
+
+let num = 1;
+
+while( num <= 10 ){ 
+    document.write( num + "<br>" );
+    num++;
+    if ( num == 5 )continue;
+    if ( num == 8 )break;
+
+}
+
+/// Prompt( funcion que se utiliza
+para pedir un dato ).
+
+Example
+dato = prompt( )
+
+// Formas de declarar funciones y llamarlas
+
+Example 1
+-------------------------------------
+
+
+function sum( num1 , num2 ){ 
+    let res = num1 + num2;
+    return res
+}
+
+let x = 1;
+let y = 3;
+
+let z = sum(  x , y );
+
+document.write( z );
+
+--------------------------------
+--------------------------------
+
+EXAMPLE 2
+
+const x = ( num1 , num2 ) =>{
+    let suma = num1 + num2;
+    return suma;
+}
+
+document.write ( x(3,2) );
+
+-----------------------------------
+
+
+
+
+
+
+
